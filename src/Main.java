@@ -12,6 +12,8 @@ public class Main {
         Data newCar = new Data(carBrand, carModel, carYear);
 
         System.out.println(newCar.getSingleCarData());
+
+        System.out.println(newCar.getCarBrand());
     }
 
 }
